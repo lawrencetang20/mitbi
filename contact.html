@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="contact.css">
+	<link rel="stylesheet" href="index.css">
+
+	<script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+	</script>
+	<script>
+	$(function(){
+	  $("#header").load("header.html");
+	  $("#footer").load("footer.html");
+		$("#copyright").load("copyright.html");
+	});
+	</script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap" rel="stylesheet">
+	<title>MITBI - Contact</title>
+</head>
+
+<body>
+	<div id="header"></div>
+
+	<div class="header">Want to help us build our machine?<br>Email us at <i>contact-mitbi@mit.edu</i>,<br>or get in contact with us below!</div>
+
+	<div class="contacts" style="height: 30vw;">
+		<div>
+			<img style="width:50%;" src="images/mailing-list-gear.png" alt="mailing-list" class="center">
+		</div>
+		<div>
+			<img style="width:50%;" src="images/discord-gear.png" alt="mailing-list" class="center">
+		</div>
+		<div>
+			<img style="width:50%;" src="images/tiktok-gear.png" alt="mailing-list" class="center">
+		</div>
+
+		<div class="subtitle">Subscribe to our mailing list for<br>events, updates, and more!</div>
+		<div class="subtitle">Join our Discord server to become<br>a part of the MITBI community!</div>
+		<div class="subtitle">Find us on TikTok and learn<br>something along the way!</div>
+
+	</div>
+
+	<div id="copyright"></div>
+</body>
+
+</html>

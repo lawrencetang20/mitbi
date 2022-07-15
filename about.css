@@ -1,0 +1,116 @@
+/* the large title on the main page */
+.aboutTitle {
+  font-family: brOmega;
+  color: #FCFCFC;
+  font-size: 10vw;
+  text-align: center;
+  line-height: 0.9;
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* the subtitle on the main page */
+.aboutSubtitle {
+  font-family: brOmega;
+  color: #FCFCFC;
+  font-size: 2vw;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+/* arranges the title and subtitle to the center of screen */
+.titles {
+  display: grid;
+  height: 50%;
+}
+
+/* puts the gears image on the background of the page */
+.aboutImageContainer {
+  width:100vw;
+  height:40vw;
+  background-image: url('images/about_bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  justify-content: center;
+  display: flex;
+  align-items: center;
+ }
+
+@font-face {
+  font-family: bROmega;
+  src: url('fonts/BROmega-Bold.ttf');
+}
+
+.intro {
+  font-family: brOmega;
+  color: #555661;
+  font-size: 1.5vw;
+
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+	flex-direction: column;
+}
+
+.intro-grid {
+	display: grid;
+  grid-template-columns: 1fr 2.5fr 5fr 1.5fr;
+
+	justify-content: center;
+	align-items: center;
+	text-align: left;
+
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+.about-us {
+  font-family: brOmega;
+  color: #555661;
+  font-size: 1.5vw;
+
+  text-align: right;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+	flex-direction: column;
+}
+
+.about-grid {
+	display: grid;
+  grid-template-columns: 1.5fr 5fr 2.5fr 1fr;
+
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.what-is {
+	background: #555661;
+  font-family: brOmega;
+  color: #fcfcfc;
+  font-size: 7vw;
+  text-align: center;
+  line-height: 0.9;
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+	padding-top: 5vw;
+	padding-bottom: 5vw;
+}

@@ -1,0 +1,49 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.navbar-custom {
+  background-color: rgba(0, 0, 0, 0.05)
+}
+
+body {
+  background-color: #FCFCFC  /* #5BC0EB */
+}
+
+.form-inline {
+  font-family: 'Sen', sans-serif;
+}
+
+.text-reset {
+  font-family: 'Sen', sans-serif;
+}
+
+.text-center {
+  font-family: 'Sen', sans-serif;
+}
+
+.navbar-nav {
+  font-family: 'Sen', sans-serif;
+  font-size: 20px;
+  padding-right: 20px;
+  /* color: #555560; */
+}
+
+.btn-primary {
+  background-color: #F5C918;
+  border-width: 0px;
+  color: #555560;
+}
+
+.nav-item {
+  color: #555560;
+  padding: 10px;
+}
+
+.nav-link {
+  /* color: #555560; */
+  padding: 10px;
+}

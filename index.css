@@ -1,3 +1,4 @@
+/* for the messages in the Footer */
 .center {
   display: block;
   margin-left: auto;
@@ -5,33 +6,123 @@
   width: 80%;
 }
 
-body {
-  background-color: #5BC0EB
+/* adds custom font to the site*/
+@font-face {
+  font-family: bROmega;
+  src: url('fonts/BROmega-Bold.ttf');
 }
 
-.form-inline {
+/* the large title on the main page */
+.mainTitle {
+  font-family: brOmega;
+  color: #FCFCFC;
+  font-size: 10vw;
+  text-align: center;
+  line-height: 0.9;
+
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* the subtitle on the main page */
+.mainSubtitle {
+  font-family: brOmega;
+  color: #FCFCFC;
+  font-size: 2vw;
+
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+/* arranges the title and subtitle to the center of screen */
+.titles {
+  display: grid;
+  height: 50%;
+}
+
+/* puts the gears image on the background of the page */
+.imageContainer {
+  width:100vw;
+  height:40vw;
+  background-image: url('images/title_bg.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  justify-content: center;
+  display: flex;
+  align-items: center;
+ }
+
+/* gives the navbar button its colors */
+.btn {
   font-family: 'Sen', sans-serif;
+  background-color: #F5C918;
+  border-width: 0px;
+  color: #555560;
+  background: #F5C918;
 }
 
+.btn-primary {
+  font-family: 'Sen', sans-serif;
+  background-color: #F5C918;
+  border-width: 0px;
+  color: #555560;
+  background: #F5C918;
+}
+
+/* gives the navbar items its font and style */
 .navbar-nav {
   font-family: 'Sen', sans-serif;
   font-size: 20px;
   padding-right: 20px;
-  /* color: #555560; */
 }
 
-.btn-primary {
+/* vertical padding for navbar items */
+.nav-link {
+  padding: 10px;
+}
+
+/* gives the footer its font styling */
+.text-center {
+  font-family: brOmega;
+}
+
+/* adds space between the navbar items */
+.nav-item {
+  padding: 5px;
+}
+
+
+/*
+.text-reset {
+  font-family: 'Sen', sans-serif;
+} */
+
+/* .text-center {
+  font-family: 'Sen', sans-serif;
+} */
+
+
+
+/* .btn-primary {
   background-color: #F5C918;
   border-width: 0px;
   color: #555560;
+} */
+
+/* .bg-light {
+  font-family: 'Sen', sans-serif;
+  background-color: #F5C918;
+  border-width: 0px;
+  color: #555560;
+  background: #F5C918; */
 }
 
-.nav-item {
+/* .nav-item {
   color: #555560;
   padding: 10px;
-}
-
-.nav-link {
-  /* color: #555560; */
-  padding: 10px;
-}
+} */

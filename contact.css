@@ -1,0 +1,34 @@
+/* adds custom font to the site*/
+@font-face {
+  font-family: bROmega;
+  src: url('fonts/BROmega-Bold.ttf');
+}
+
+.contacts {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(3, 1fr);
+	grid-row-gap: 15px;
+
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	color: #a0a0a7;
+	font-size: 1.5vw;
+	font-family: bROmega;
+}
+
+.header {
+	font-family: bROmega;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 40px;
+	color: #556661;
+	font-size: 2vw;
+}
+
+.subtitle {
+	padding-bottom: 50px;
+}
