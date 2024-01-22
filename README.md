@@ -1,4 +1,4 @@
-## Installation
+## Installation for MAC
 
 First, make sure you have Node.js and npm installed on your computer. You can download and install them from the [Node.js](https://nodejs.org/en) website.
 
