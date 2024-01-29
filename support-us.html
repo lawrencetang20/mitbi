@@ -1,41 +1,174 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="support-us.css">
+  <link rel="stylesheet" href="index.css">
+  <style>
+    table {
+      font-family: 'Sen', sans-serif;
+      margin-top: 10px;
+      width: 100%;
+    }
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="support-us.css">
-	<link rel="stylesheet" href="index.css">
+    th, td {
+      color: #333;
+      text-align: center;
+      vertical-align: middle;
+      padding: 10px;
+    }
 
-	<script
-    src="https://code.jquery.com/jquery-3.3.1.js"
-    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-    crossorigin="anonymous">
-	</script>
-	<script>
-	$(function(){
-	  $("#header").load("header.html");
-	  $("#footer").load("footer.html");
-		$("#copyright").load("copyright.html");
-	});
-	</script>
+    th {
+      background-color: #f8f9fa;
+    }
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap" rel="stylesheet">
-	<title>MITBI - Support Us</title>
+    tbody tr:nth-child(even) {
+      background-color: #f8f9fa;
+    }
+
+    tbody tr:hover {
+      background-color: #e9ecef;
+    }
+
+    .checkmark {
+      font-size: 20px;
+    }
+
+    .th-text {
+      font-size: 20px;
+    }
+
+    .th-text span {
+      display: block;
+      font-size: 12px;
+    }
+
+    .action-header {
+      font-size: 20px;
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script>
+    $(function(){
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+      $("#copyright").load("copyright.html");
+    });
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sen:wght@700&display=swap" rel="stylesheet">
+  <title>MITBI - Support Us</title>
 </head>
-
 <body>
-	<div id="header"></div>
+  <div id="header"></div>
 
-	<div>
-		<img style="width:70%;" src="images/mitbi_under_construction.png" alt="under-construction" class="center">
-	</div>
+  <div class="container mt-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-12">
+        <table class="table table-bordered">
+          <thead class="thead-light">
+            <tr>
+              <th>
+                <span style="font-size: 25px;">Action</span><br>
+                <span style="font-size: 10px;">Insert Text Here</span>
+              </th>
+              <th>
+                <span style="font-size: 25px;">Donors</span><br>
+                <span style="font-size: 10px;">(Under $1,000)</span>
+              </th>
+              <th>
+                <span style="font-size: 25px;">Bronze</span><br>
+                <span style="font-size: 10px;">($1,000 and up)</span>
+              </th>
+              <th>
+                <span style="font-size: 25px;">Silver</span><br>
+                <span style="font-size: 10px;">($3,000 and up)</span>
+              </th>
+              <th>
+                <span style="font-size: 25px;">Gold</span><br>
+                <span style="font-size: 10px;">($5,000 and up)</span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Receive team newsletters</td>
+              <td><span class="checkmark">&#10003;</span></td>
+              <td><span class="checkmark">&#10003;</span></td>
+              <td><span class="checkmark">&#10003;</span></td>
+              <td><span class="checkmark">&#10003;</span></td>
+            </tr>
+            <tr>
+              <td>Invitation to events (final launch at the MIT Museum)</td>
+              <td><span class="checkmark">&#10003;</span></td>
+              <td><span class="checkmark">&#10003;</span></td>
+              <td><span class="checkmark">&#10003;</span></td>
+              <td><span class="checkmark">&#10003;</span></td>
+            </tr>
+            <tr>
+              <td>Honored on our website</td>
+              <td></td>
+              <td><span class="checkmark">&#10003;</span></td>
+              <td><span class="checkmark">&#10003;</span></td>
+              <td><span class="checkmark">&#10003;</span></td>
+            </tr>
+            <tr>
+              <td>Logo on team apparel</td>
+              <td></td>
+              <td><span class="checkmark">&#10003;</span></td>
+              <td><span class="checkmark">&#10003;</span></td>
+              <td><span class="checkmark">&#10003;</span></td>
+            </tr>
+            <tr>
+              <td>Logo on specific part/module of the machine</td>
+              <td></td>
+              <td><span class="checkmark">&#10003;</span></td>
+              <td><span class="checkmark">&#10003;</span></td>
+              <td><span class="checkmark">&#10003;</span></td>
+            </tr>
+            <tr>
+              <td>Feature on social media</td>
+              <td></td>
+              <td></td>
+              <td><span class="checkmark">&#10003;</span></td>
+              <td><span class="checkmark">&#10003;</span></td>
+            </tr>
+            <tr>
+              <td>Recruitment opportunities</td>
+              <td></td>
+              <td></td>
+              <td><span class="checkmark">&#10003;</span></td>
+              <td><span class="checkmark">&#10003;</span></td>
+            </tr>
+            <tr>
+              <td>Resume book</td>
+              <td></td>
+              <td></td>
+              <td><span class="checkmark">&#10003;</span></td>
+              <td><span class="checkmark">&#10003;</span></td>
+            </tr>
+            <tr>
+              <td>Special feature at final launch (?)</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><span class="checkmark">&#10003;</span></td>
+            </tr>
+            <tr>
+              <td>5-10 actions dedicated to sponsor (?)</td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><span class="checkmark">&#10003;</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
 
-	<div id="footer"></div>
-	<div id="copyright"></div>
+  <div id="footer"></div>
+  <div id="copyright"></div>
 </body>
-
 </html>
